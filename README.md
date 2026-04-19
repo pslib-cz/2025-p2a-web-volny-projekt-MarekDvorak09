@@ -1,6 +1,6 @@
 # Volný projekt
 
-> **Jméno a příjmení:** `Doplňte`
+> **Marek Dvořák:** `Doplňte`
 
 > **Název projektu:** `Doplňte`
 
@@ -28,17 +28,16 @@ _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cí
 
 `Doplňte cílovou skupinu.`
 
-
 ## Odkazy a výstupy
 
 _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
-| Výstup | Odkaz |
-|---|---|
-| GitHub Pages (live) | [`Doplň odkaz`](#) |
-| Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
-| Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
-| Fotografie / média | [`Doplň odkaz`](#) |
+| Výstup                          | Odkaz                                                                                        |
+| ------------------------------- | -------------------------------------------------------------------------------------------- |
+| GitHub Pages (live)             | [`Doplň odkaz`](#)                                                                           |
+| Grafický manuál (Figma / Canva) | [https://www.figma.com/design/OypEf9Q0PhLW8XxUuODCws/Projekt?m=auto&t=0KYXtkxiQLS0yy8s-6](#) |
+| Grafický návrh webu (Figma)     | [`Doplň odkaz`](#)                                                                           |
+| Fotografie / média              | [`Doplň odkaz`](#)                                                                           |
 
 ---
 
