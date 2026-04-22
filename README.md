@@ -2,7 +2,7 @@
 
 > **Marek Dvořák:** `Doplňte`
 
-> **Název projektu:** `Doplňte`
+> **MiniStep** `Doplňte`
 
 ---
 
@@ -10,7 +10,7 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`Doplňte popis projektu.`
+`Firma, která se zabývá prodejí dětských bot.`
 
 ---
 
@@ -26,7 +26,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 
 _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cílové skupiny._
 
-`Doplňte cílovou skupinu.`
+`Rodiny s malými dětmi. Typický zástupce je třeba maminka s 4 letým synem.`
 
 ## Odkazy a výstupy
 
@@ -34,7 +34,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 | Výstup                          | Odkaz                                                                                        |
 | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| GitHub Pages (live)             | [`Doplň odkaz`](#)                                                                           |
+| GitHub Pages (live)             | [https://pslib-cz.github.io/2025-p2a-web-volny-projekt-MarekDvorak09/](#)                    |
 | Grafický manuál (Figma / Canva) | [https://www.figma.com/design/OypEf9Q0PhLW8XxUuODCws/Projekt?m=auto&t=0KYXtkxiQLS0yy8s-6](#) |
 | Grafický návrh webu (Figma)     | [`Doplň odkaz`](#)                                                                           |
 | Fotografie / média              | [`Doplň odkaz`](#)                                                                           |
