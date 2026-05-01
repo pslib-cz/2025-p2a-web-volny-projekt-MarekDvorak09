@@ -32,12 +32,12 @@ _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cí
 
 _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
-| Výstup                          | Odkaz                                                                                        |
-| ------------------------------- | -------------------------------------------------------------------------------------------- |
-| GitHub Pages (live)             | [https://pslib-cz.github.io/2025-p2a-web-volny-projekt-MarekDvorak09/](#)                    |
-| Grafický manuál (Figma / Canva) | [https://www.figma.com/design/OypEf9Q0PhLW8XxUuODCws/Projekt?m=auto&t=0KYXtkxiQLS0yy8s-6](#) |
-| Grafický návrh webu (Figma)     | [`Doplň odkaz`](#)                                                                           |
-| Fotografie / média              | [`Doplň odkaz`](#)                                                                           |
+| Výstup                          | Odkaz                                                                     |
+| ------------------------------- | ------------------------------------------------------------------------- |
+| GitHub Pages (live)             | [https://pslib-cz.github.io/2025-p2a-web-volny-projekt-MarekDvorak09/](#) |
+| Grafický manuál (Figma / Canva) | [](#)                                                                     |
+| Grafický návrh webu (Figma)     | [`Doplň odkaz`](#)                                                        |
+| Fotografie / média              | [`Doplň odkaz`](#)                                                        |
 
 ---
 
