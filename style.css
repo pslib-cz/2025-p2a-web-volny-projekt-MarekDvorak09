@@ -734,7 +734,7 @@ header{
     font-size:1.125rem;
 }
 
-/* ABOUT HOME */
+/* HOME O NAS */
 
 .about-home{
     display:grid;
@@ -775,7 +775,7 @@ header{
     font-size:1.125rem;
 }
 
-/* CONTACT */
+/* KONTAKTY PAGE */
 
 .contact-page{
     display:grid;
@@ -862,7 +862,7 @@ header{
     width:22rem;
 }
 
-/* PRODUCTS PAGE */
+/* PRODUKTY PAGE */
 
 .products-section{
     padding:2.5rem 4rem;
@@ -889,7 +889,7 @@ header{
     font-size:1.25rem;
 }
 
-/* PRODUCT DETAIL */
+/* PRODUKT PAGE */
 
 .produkt-detail{
     display:grid;
