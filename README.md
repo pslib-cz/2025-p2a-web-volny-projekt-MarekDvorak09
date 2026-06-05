@@ -10,7 +10,7 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`Firma, která se zabývá prodejí dětských bot.`
+`Firma, která se zabývá prodejí dětských bot. Pomáhá rodičům se správným výběrem dětských bot.`
 
 ---
 
