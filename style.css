@@ -5,10 +5,10 @@
 }
 body{
     font-family:Arial, sans-serif;
-    background:#d2d2d2;
+    background:#ffffff;
     color:#222;
     margin:0 auto;
-    border: solid 1px black;
+    border:1px solid black;
 }
 
 header{
@@ -31,20 +31,25 @@ header{
 }
 
 .hero{
-    height:340px;
-    background:url("Images/Home/Hero.jpg") center/cover;
+    background-image:url("Images/Home/Hero.png");
+    background-position:70% center;
+    background-repeat:no-repeat;
+    background-size:cover;
     position:relative;
+    min-height:60vh;
 }
 
+
 .overlay{
+    position:absolute;
+    inset:0;
     background:rgba(0,0,0,.25);
-    width:100%;
-    height:100%;
     padding:40px 25px;
     display:flex;
     flex-direction:column;
     justify-content:center;
 }
+
 
 .hero h1{
     color:white;
@@ -122,9 +127,10 @@ header{
 }
 
 .why{
-    padding:20px 15px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
 }
-
 .why h2{
     text-align:center;
     margin-bottom:20px;
@@ -139,34 +145,38 @@ header{
     background:#4CAF50;
     color:white;
     margin-top:15px;
-    border-top-right-radius:20px;
-    border-top-left-radius:20px;
-    padding:12px 20px;
+    border-radius:10px 10px 0 0;
+    padding:14px 12px;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    gap:15px;
+    gap:12px;
 }
+
 
 .help-box h3{
-    font-size:18px;
-    margin-bottom:10px;
+    font-size:15px;
+    margin:0 0 6px;
     line-height:1.2;
+    font-weight:700;
 }
 
+
 .help-box p{
-    font-size:14px;
-    line-height:1.4;
+    font-size:12px;
+    line-height:1.3;
     margin:0;
 }
+
 
 .btn-light{
     background:white;
     color:#333;
     text-decoration:none;
-    padding:12px 18px;
-    border-radius:15px;
+    padding:8px 12px;
+    border-radius:8px;
     font-weight:bold;
+    font-size:12px;
     white-space:nowrap;
 }
 
@@ -224,30 +234,62 @@ footer h3{
 
 .mobile-menu{
     position:fixed;
-    top:0;
-    right:-250px;
-    width:250px;
-    height:100vh;
-    background:#eef2e8;
+    top:4.7rem;
+    right:-100%;
+    width:15rem;
+    height:90vh;
+    background:#f5f5f5;
     z-index:999;
-    transition:0.3s;
-
+    transition:.3s;
     display:flex;
     flex-direction:column;
-    padding-top:80px;
-    padding-left:20px;
 }
 
 .mobile-menu.active{
     right:0;
 }
 
-.mobile-menu a{
-    text-decoration:none;
-    color:#333;
-    font-size:20px;
-    margin:15px 0;
+.mobile-menu nav{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    gap:2rem;
+    padding-top: 4rem;
 }
+
+.mobile-menu nav a{
+    text-decoration:none;
+    color:#293042;
+    font-size:1.5rem;
+    font-weight:700;
+}
+
+.menu-contact{
+    background:#e7eedf;
+    padding:1rem;
+}
+
+.menu-contact h3{
+    margin-bottom:1rem;
+}
+
+.menu-contact p{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom:0.75rem;
+}
+
+.menu-contact i{
+    color:#4CAF50;
+    font-size:1.25rem;
+}
+
+
+
+
 
 /*KONTAKTY PAGE*/
 .contact-page{
@@ -335,16 +377,19 @@ footer h3{
 
 /*O NÁS PAGE*/
 .about-banner{
-    height:190px;
-    background:url("Images/Home/onas.jpg") center center/cover;
+    background-image: url("Images/Home/Hero.png");
+    background-position: 70% center;
+    background-repeat:no-repeat;
+    background-size:cover;
     position:relative;
+    height: 500px;
+    margin:0;
 }
 
 .about-overlay{
     position:absolute;
-    bottom:15px;
-    left:15px;
-    color:white;
+    bottom:8%;
+    left:5%;
 }
 
 .about-overlay h1{
@@ -360,7 +405,7 @@ footer h3{
 }
 
 .about-section{
-    padding:15px;
+    padding:20px 15px;
 }
 
 .about-section h2{
@@ -423,7 +468,8 @@ footer h3{
 }
 
 .reasons-image{
-    width:140px;
+    width:120px;
+    flex-shrink:0;
 }
 
 .reasons-image img{
@@ -596,6 +642,138 @@ main p{
     display:none;
 }
 
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+.arrow-left{
+    color: white;
+}
+
+/* GALERIE */
+
+#lightgallery{
+    padding:20px 15px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+}
+
+
+#lightgallery a{
+    display:block;
+    overflow:hidden;
+    border-radius:15px;
+    aspect-ratio:1/1;
+}
+
+#lightgallery img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:15px;
+    transition:.3s;
+}
+
+
+#lightgallery img:hover{
+    transform:scale(1.05);
+}
+
+.desktop-nav{
+    display:none;
+}
+
+.desktop-nav{
+    margin:0;
+}
+
+/* PRODUKT Page*/
+    .produkt-detail {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 15px;
+        margin: 30px auto;
+    }
+
+   
+    .produkt-obrazek {
+        padding: 20px;
+    }
+
+    .produkt-obrazek img {
+        max-width: 100%;
+    }
+
+    .produkt-info h2 {
+        font-size: 1.6rem;
+    }
+
+    .cena {
+        font-size: 1.8rem;
+        margin: 20px 0;
+    }
+
+    
+    .top-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    /* VELIKOSTI */
+    .velikosti {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .velikosti button {
+        width: 42px;
+        height: 42px;
+        font-size: 0.9rem;
+    }
+
+    /* BARVY */
+    .barvy span {
+        width: 24px;
+        height: 24px;
+    }
+
+    .nakup-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .pocet {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .kosik {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+    }
+
+    
+    .produkt-info p {
+        font-size: 0.95rem;
+    }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -611,7 +789,7 @@ main p{
 @media (min-width:1024px){
 
 body{
-    max-width:88rem; /* 1400px */
+    max-width:88rem;
     margin:auto;
 }
 
@@ -817,10 +995,9 @@ header{
     padding:2.5rem;
 }
 
-/* ABOUT PAGE */
-
+/* Onas PAGE */
 .about-banner{
-    height:22rem;
+    height:32rem;
 }
 
 .about-overlay h1{
@@ -891,36 +1068,239 @@ header{
     font-size:1.25rem;
 }
 
-/* PRODUKT PAGE */
+/*  PRODUKT Page */
 
-.produkt-detail{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:4rem;
-    padding:4rem;
+.produkt-detail {
+    max-width: 1400px;
+    margin: 60px auto;
+    padding: 0 40px;
+
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 60px;
+    align-items: start;
 }
 
-.produkt-info h2{
-    font-size:2.625rem;
+
+.produkt-obrazek {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cena{
-    font-size:2rem;
-    font-weight:bold;
+.produkt-obrazek img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
 }
+
+
+
+.produkt-info h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: #f6b400;
+    margin-bottom: 25px;
+}
+
+.rating span {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.cena {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+/* Velikosti */
+
+.velikosti {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0 25px;
+}
+
+.velikosti button {
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.velikosti button:hover,
+.velikosti button.active {
+    border: 2px solid #000;
+}
+
+/* Barvy */
+
+.barvy {
+    display: flex;
+    gap: 14px;
+}
+
+.barvy span {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.cervena { background: #e54848; }
+.modra   { background: #1f5eff; }
+.zluta   { background: #f3b400; }
+.zelena  { background: #4caf50; }
+
+
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.sklad {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #4caf50;
+}
+
+
+
+.nakup-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.pocet {
+    display: flex;
+    border: 1px solid #ddd;
+}
+
+.pocet button,
+.pocet span {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pocet button {
+    border: none;
+    background: #f3f3f3;
+    cursor: pointer;
+}
+
+.kosik {
+    padding: 14px 28px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.kosik:hover {
+    background: #3e9b42;
+}
+
+.produkt-info h3 {
+    margin-bottom: 10px;
+}
+
+.produkt-info p {
+    line-height: 1.7;
+    color: #555;
+}
+
 
 /* FOOTER */
 
 footer{
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap:2.5rem;
-    padding:3rem;
+    background:#293042;
+    color:white;
+    padding:2rem 1rem;
+    max-width:none;
+}
+
+.footer-links,
+.footer-hours,
+.footer-contact{
+    text-align:center;
+}
+
+.footer-links a{
+    display:block;
+    margin-bottom:1rem;
+}
+
+.footer-hours{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:1rem;
+}
+
+.footer-contact p{
+    display:flex;
+    align-items:center;
+    margin-top:1rem;
+    gap:1rem;
 }
 
 .footer-mini{
-    grid-column:1/-1;
-    margin-top:2rem;
+    margin-top:1rem;
+    text-align:center;
 }
 
+.mobile-menu{
+    display:none;
+}
+
+
+/* GALERIE */
+
+#lightgallery{
+    padding:40px;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+#lightgallery img{
+    height:260px;
+}
+
+.gallery-header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.gallery-header h1{
+    font-size:64px;
+    margin-bottom:10px;
+}
+
+.gallery-header p{
+    max-width:700px;
+    margin:auto;
+    color:#555;
+}
 }
