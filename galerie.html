@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="lightgallery">
+            <a href="Images/Home/foto.jpg">
+                <img src="Images/Home/foto.jpg" alt="foto">
+            </a>
+            <a href="Images/Home/Letni.png">
+                <img src="Images/Home/Letni.png" alt="foto">
+            </a>
+            <a href="Images/Home/foto.jpg">
+                <img src="Images/Home/foto.jpg" alt="foto">
+            </a>
+            <a href="Images/Home/Letni.png">
+                <img src="Images/Home/Letni.png" alt="foto">
+            </a>
+            <a href="Images/Home/foto.jpg">
+                <img src="Images/Home/foto.jpg" alt="foto">
+            </a>
+            <a href="Images/Home/Letni.png">
+                <img src="Images/Home/Letni.png" alt="foto">
+            </a>
+            <a href="Images/Home/foto.jpg">
+                <img src="Images/Home/foto.jpg" alt="foto">
+            </a>
+            <a href="Images/Home/Letni.png">
+                <img src="Images/Home/Letni.png" alt="foto">
+            </a>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/lightgallery.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/plugins/zoom/lg-zoom.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        lightGallery(document.getElementById('lightgallery'), {
+            plugins: [lgZoom, lgThumbnail],
+            speed: 400,
+            licenseKey: 'open-source-license',
+        });
+    </script>
+</body> 
+</html>
